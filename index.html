@@ -1,14 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Google</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="nav_container">
+        <a href="#" class="nav_link">Gmail</a>
+        <a href="#" class="nav_link">Images</a>
+        <a href="" class="nav_link menu">
+          <img src="./images/menu_icon.svg" alt="menu" srcset="" />
+        </a>
+        <a href="#">
+          <img src="" alt="" class="nav_profile_img" />
+        </a>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Google Logo -->
+      <img src="./images/google_logo.png" alt="" class="google_logo" />
+      
+      <!-- Search Input -->
+      <form action="">
+        <div class="input_container">
+          <span class="search_icon">
+            <img src="./images/search_icon.svg" alt="search" />
+          </span>
+          <input type="text" name="query" id="" />
+        </div>
+        <div class="button_container">
+          <button class="btn">Google Search</button>
+          <button class="btn">I'm Feeling Lucky</button>
+        </div>
+      </form>
+    </main>
     
-</body>
+    <!-- Footer -->
+    <footer>
+      <div class="footer_container">
+        <p class="footer_p">Spain</p>
+      </div>
+      <div class="footer_container">
+        <div class="footer_links_container">
+          <a href="#" class="footer_link">About</a>
+          <a href="#" class="footer_link">Advertising</a>
+          <a href="#" class="footer_link">Business</a>
+          <a href="#" class="footer_link">How Search works</a>
+        </div>
+        <div class="footer_links_container">
+          <a href="" class="footer_link">Privacy</a>
+          <a href="" class="footer_link">Terms</a>
+          <a href="" class="footer_link">Settings</a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
