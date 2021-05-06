@@ -30,16 +30,16 @@
       <img src="./images/google_logo.png" alt="" class="google_logo" />
 
       <!-- Search Input -->
-      <form class="search_form" action="">
+      <form class="search_form" method="GET" action="https://www.google.com/search?">
         <div class="input_container">
           <span class="search_icon">
             <img src="./images/search_icon.svg" alt="search" />
           </span>
-          <input type="text" name="query" id="" class="input_box" />
+          <input type="text" name="q" id="" class="input_box" placeholder="Try and search ;)"/>
         </div>
         <div class="button_container">
-          <button class="btn">Google Search</button>
-          <button class="btn">I'm Feeling Lucky</button>
+          <button type="submit" class="btn">Google Search</button>
+          <button type="submit" class="btn">I'm Feeling Lucky</button>
         </div>
       </form>
     </main>
